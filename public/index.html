@@ -1,10 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Voyage voyage</title>
-    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voyage voyage</title>
+  <link rel="shortcut icon" href="../assets/img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="src/css/main.css">
+
 </head>
+
 <body>
-  <h1>Voyage voyage</h1>
+  <section id="intro">
+    <div id="presentation">
+      <h1>Voyage voyage</h1>
+      <p>Découvre le monde selon tes critères! Un outil qui t'indique quand et où partir selon les saisons météorologiques.</p>
+    </div>
+    <div id="criterias">
+
+      <div class="continent">Continent</div>
+
+      <div name="temperature_input" class="temperature_input range_container input">
+        <p class="temperature input_title">Temperature [°C]</p>
+        <div class="sliders_control">
+          <input id="fromSlider" type="range" value="15" min="-20" max="70" />
+          <input id="toSlider" type="range" value="25" min="-20" max="70" />
+        </div>
+        <div class="form_control">
+          <div class="form_control_container">
+            <div class="form_control_container__temp">Min</div>
+            <input class="form_control_container__temp__input" type="number" id="fromInput" value="15" min="-20" max="70" />
+          </div>
+          <div class="form_control_container">
+            <div class="form_control_container__temp">Max</div>
+            <input class="form_control_container__temp__input" type="number" id="toInput" value="25" min="-20" max="70" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="month_input input">
+        <p class="month input_title">Mois</p>
+        <select name="month" id="select_month" size="12">
+          <option value="01"> Janvier </option>
+          <option value="02"> Février </option>
+          <option value="03"> Mars </option>
+          <option value="04"> Avril </option>
+          <option value="05"> Mai </option>
+          <option value="06"> Juin </option>
+          <option value="07"> Juillet </option>
+          <option value="08"> Août </option>
+          <option value="09"> Septembre </option>
+          <option value="10"> Octobre </option>
+          <option value="11"> Novembre </option>
+          <option value="12"> Dézembre </option>
+        </select>
+      </div>
+
+      <div class="climate_input input">
+        <p>Climat</p>
+        <div>
+          <input type="radio" id="acceptable" name="climate" value="acceptable" checked />
+          <label for="acceptable">Je veux un climat acceptable</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="favorable" name="climate" value="favorable" />
+          <label for="favorable">Je veux un climat favorable</label>
+        </div>
+
+        <div>
+          <input type="radio" id="ideal" name="climate" value="ideal" />
+          <label for="ideal">Je cherche le climat ideal!</label>
+        </div>
+      </div>
+
+      <div class="budget_input input">
+        <p>Budget sur place</p>
+        <div>
+          <input type="radio" id="petit" name="budget" value="petit" checked />
+          <label for="petit">$ - petit budget</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="regular" name="budget" value="regular" />
+          <label for="regular">$$ - budget moyen</label>
+        </div>
+
+        <div>
+          <input type="radio" id="large" name="budget" value="large" />
+          <label for="large">$$$ - gros budget</label>
+        </div>
+      </div>
+
+      <div class="activity_input input">
+        <p>Quelle activité faire?</p>
+        <div>
+          <input type="radio" id="plage" name="activity" value="petit" checked />
+          <label for="plage">plage</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="nature" name="activity" value="regular" />
+          <label for="nature">nature</label>
+        </div>
+
+        <div>
+          <input type="radio" id="family" name="activity" value="large" />
+          <label for="family">family</label>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="map">
+    <svg id="map"> </svg>
+  </section>
+
 </html>

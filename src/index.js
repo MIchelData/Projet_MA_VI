@@ -1,3 +1,10 @@
-import * as d3 from "d3";
+import css from "./css/main.css";
 
-console.log('yo')
+import * as map from "./objects/Map"
+
+import * as rangeInput from "./objects/DataInputs/rangeInput"
+
+import * as d3 from "d3";
+import { json } from 'd3-fetch';
+    
+
