@@ -9,4 +9,4 @@ import { json } from 'd3-fetch';
 
 import connection from './utils/api';
 
-connection();
+// connection();
