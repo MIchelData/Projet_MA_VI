@@ -1,7 +1,10 @@
 import 'babel-polyfill';
 
-async function connection() {
-  const url = 'https://meteostat.p.rapidapi.com/stations/monthly?station=10637&start=2020-01-01&end=2020-12-31';
+async function requestAPI(apiReq) {
+  // const url = 'https://meteostat.p.rapidapi.com/stations/monthly?station=10637&start=2020-01-01&end=2020-12-31';
+  const url = 'https://meteostat.p.rapidapi.com/stations/nearby?lat=51.5085&lon=-0.1257';
+  // const url = apiReq;
+  // const url = 'https://meteostat.p.rapidapi.com/stations/hourly';
   const options = {
     method: 'GET',
     headers: {
@@ -13,9 +16,11 @@ async function connection() {
   try {
     const response = await fetch(url, options);
     const result = await response.text();
+    return result;
     console.log(result);
   } catch (error) {
     console.error(error);
+    return error;
   }
 }
 
@@ -24,4 +29,4 @@ async function connection() {
 //   const data = await response.json();
 // }
 
-export default connection;
+export default requestAPI;
