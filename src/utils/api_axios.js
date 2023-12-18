@@ -2,7 +2,7 @@ import axios from 'axios';
 import 'babel-polyfill';
 
 async function requestApi(url, params) {
-  const options = {
+  let options = {
     method: 'GET',
     url: '',
     params: {},

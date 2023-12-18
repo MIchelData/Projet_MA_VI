@@ -1,24 +1,29 @@
-import * as d3 from "d3";
+import * as d3 from 'd3';
+import dataWorld from '../data/world.json';
 
-import dataWorld from '../data/world.json'
+const widthMap = window.innerWidth;
+const heightMap = window.innerHeight;
 
+let svg = d3
+  .select('section #map')
+  .attr('viewBox', [50, 400, widthMap, heightMap])
+  .attr('width', widthMap)
+  .attr('height', heightMap)
+  .attr('style', 'max-width: 100%; height: 100%;');
 
-const widthMap = window.innerWidth
-const heightMap = window.innerHeight
+const g = svg.append('g');
 
-let svg = d3.select("section #map")
-    .attr("width", widthMap)
-    .attr("height", heightMap); 
+const zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
 
-const projection = d3.geoEquirectangular()
-    .fitSize([widthMap, heightMap], dataWorld);
+svg.call(zoom);
 
+const projection = d3.geoEquirectangular().fitSize([widthMap, heightMap], dataWorld);
 const path = d3.geoPath().projection(projection);
 
-svg.selectAll("path")
-    .data(dataWorld.features)
-    .enter()
-    .append("path")
-    .attr('stroke', 'black')
-    .attr("d", path)
-    .attr('fill', 'white')
+g.selectAll('path').data(dataWorld.features).join('path').attr('stroke', 'black').attr('d', path).attr('fill', 'white');
+
+function zoomed(event) {
+  const { transform } = event;
+  g.attr('transform', transform);
+  g.attr('stroke-width', 1 / transform.k);
+}
