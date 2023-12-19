@@ -3,14 +3,17 @@ function getPriceIndex() {
   let price_category = [900, 1800];
   let country_by_cost = { petit: [], regular: [], large: [], all: [] };
   let country_price_index = [];
+  let country_dollar = [];
   priceIndex.forEach((elem) => {
     if (elem.Price <= 900) {
       country_by_cost.petit.push(elem);
       country_price_index.push({ price: elem.Price, country: elem.Country, indexPrice: 'petit' });
+      country_dollar[elem.Country] = 'petit';
     }
     if (elem.Price > 900 && elem.Price <= 1800) {
       country_by_cost.regular.push(elem);
       country_price_index.push({ price: elem.Price, country: elem.Country, indexPrice: 'regular' });
+      country_dollar[elem.Country] = 'petit';
     }
     if (elem.Price > 1800) {
       country_by_cost.large.push(elem);
