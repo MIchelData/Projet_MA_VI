@@ -57,7 +57,7 @@ async function displayMap(budget = 'all', tempMin = null, tempMax = null, select
 
       // Appliquer la couleur en fonction des conditions de budget, de température, des précipitations et de la disponibilité des données météo
       if (hasNoWeatherData) {
-          d3.select(this).attr('fill', 'turquoise').attr('stroke', 'black').attr('opacity', '0.7'); // Couleur pour les pays sans données météo
+          d3.select(this).attr('fill', 'grey').attr('stroke', 'black').attr('opacity', '0.7'); // Couleur pour les pays sans données météo
       } else if (isBudgetMatch && isTempMatch && isClimateMatch) {
           d3.select(this).attr('fill', 'rgba(81, 212, 55, 0.8)').attr('stroke', 'black').attr('opacity', '0.7');
       } else {

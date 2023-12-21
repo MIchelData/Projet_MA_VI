@@ -14,7 +14,7 @@ let svg = d3
   .attr('width', widthMap)
   .attr('height', heightMap)
   .attr('style', 'max-width: 100%; height: 100%;')
-  .style('background-color', 'rgba(23, 106, 198, 0.4)');
+  .style('background-color', 'rgba(23, 106, 198, 0.2)');
 // .style('opacity', '0.3');
 
 const g = svg.append('g');
