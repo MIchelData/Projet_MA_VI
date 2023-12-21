@@ -1,34 +1,771 @@
 [
-  {
-    "Country": "Monaco",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=43.7333&lon=7.4&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Singapore",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=1.3666&lon=103.8&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Cayman Islands",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=19.5000&lon=-80.5000&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Switzerland",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.3714&lon=8.5117&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Iceland",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=64.1179&lon=-21.8836&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Ireland",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=53.3387&lon=-6.3035&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Liechtenstein",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.1430&lon=9.5171&start=2015-01-01&end=2022-12-31"
-  },
-  {
-    "Country": "Germany",
-    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=52.5244&lon=13.4105&start=2015-01-01&end=2022-12-31"
-  }
+    {
+      "Country": "Monaco",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=43.7333&lon=7.4&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Singapore",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=1.3666&lon=103.8&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Cayman Islands",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=19.5&lon=-80.5&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Switzerland",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=46.948&lon=7.4474&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Iceland",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=64.1466&lon=-21.9426&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Ireland",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=53.3498&lon=-6.2603&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Liechtenstein",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.166&lon=9.5554&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "United States of America",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=38.9072&lon=-77.0369&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Luxembourg",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=49.6116&lon=6.1319&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Australia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-35.2809&lon=149.13&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "United Kingdom",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=51.5074&lon=-0.1278&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Vanuatu",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-17.7333&lon=168.3167&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Norway",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=59.9139&lon=10.7522&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Qatar",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=25.276987&lon=51.520008&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Denmark",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=55.6761&lon=12.5683&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Canada",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=45.4215&lon=-75.6972&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "New Zealand",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-41.2865&lon=174.7762&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Netherlands",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=52.3676&lon=4.9041&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Israel",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=31.7683&lon=35.2137&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "United Arab Emirates",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=24.4539&lon=54.3773&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Austria",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=48.2082&lon=16.3738&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "North Korea",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=39.0392&lon=125.7625&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Seychelles",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-4.6796&lon=55.492&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Finland",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=60.1699&lon=24.9384&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Antigua and Barbuda",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=17.0747&lon=-61.8175&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Marshall Islands",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=7.1164&lon=171.1858&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "France",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=48.8566&lon=2.3522&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Germany",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=52.52&lon=13.405&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Cyprus",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=35.1856&lon=33.3823&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Belgium",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=50.8503&lon=4.3517&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Solomon Islands",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-9.4456&lon=159.9729&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Sweden",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=59.3293&lon=18.0686&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Malta",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=35.8989&lon=14.5146&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Italy",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=41.9028&lon=12.4964&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Kuwait",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=29.3759&lon=47.9774&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Barbados",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=13.0969&lon=-59.6145&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Andorra",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=42.5063&lon=1.5218&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Spain",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=40.4168&lon=-3.7038&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Czech Republic",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=50.0755&lon=14.4378&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "San Marino",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=43.9424&lon=12.4578&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Lebanon",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=33.8938&lon=35.5018&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Cuba",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=23.1136&lon=-82.3666&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Turkmenistan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=37.9601&lon=58.3261&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Slovenia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=46.0569&lon=14.5058&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Panama",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=8.9824&lon=-79.5199&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Estonia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=59.437&lon=24.7536&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Maldives",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=4.1755&lon=73.5093&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Saint Kitts and Nevis",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=17.3026&lon=-62.7177&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Uruguay",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-34.9011&lon=-56.1645&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Equatorial Guinea",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=3.7504&lon=8.7371&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Portugal",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=38.7223&lon=-9.1393&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Palau",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=7.514&lon=134.5825&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Japan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=35.6895&lon=139.6917&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Senegal",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=14.7167&lon=-17.4677&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Armenia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=40.1792&lon=44.4991&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "South Korea",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=37.5665&lon=126.978&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Saudi Arabia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=24.7136&lon=46.6753&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Oman",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=23.588&lon=58.3829&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Lithuania",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=54.6872&lon=25.2797&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Trinidad and Tobago",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=10.6918&lon=-61.2225&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Saint Lucia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=14.0101&lon=-60.9875&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Brunei",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=4.9031&lon=114.9398&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Georgia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=41.7151&lon=44.8271&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Slovakia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=48.1486&lon=17.1077&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Poland",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=52.2297&lon=21.0122&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Greece",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=37.9838&lon=23.7275&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Bahrain",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=26.2235&lon=50.5876&start=2015-01-01&end=2022-12-31"
+    },
+     
+    {
+      "Country": "Croatia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=45.815&lon=15.9819&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Grenada",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=12.1165&lon=-61.679&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Costa Rica",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=9.9281&lon=-84.0907&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Chile",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-33.4489&lon=-70.6693&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Mozambique",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-25.8918&lon=32.6053&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Niger",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=13.5126&lon=2.1125&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Jamaica",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=18.0179&lon=-76.8099&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Latvia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=56.9496&lon=24.1052&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Samoa",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-13.8318&lon=-171.7612&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Hungary",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.4979&lon=19.0402&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Taiwan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=25.033&lon=121.5654&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Zambia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-15.3875&lon=28.3228&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Ivory Coast",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=5.3599&lon=-4.0083&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Guinea",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=9.6412&lon=-13.5784&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "El Salvador",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=13.6929&lon=-89.2182&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Serbia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=44.7866&lon=20.4489&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Suriname",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=5.852&lon=-55.2038&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Mexico",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=19.4326&lon=-99.1332&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Tonga",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-21.179&lon=-175.1982&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "São Tomé and Príncipe",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=0.3302&lon=6.7333&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Palestine",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=31.9522&lon=35.2332&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Dominica",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=15.3092&lon=-61.3794&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Zimbabwe",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-17.8252&lon=31.0335&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Angola",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-8.839&lon=13.2894&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Belize",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=17.5046&lon=-88.1962&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Laos",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=17.9757&lon=102.6331&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Montenegro",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=42.4304&lon=19.2594&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Guyana",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=6.8046&lon=-58.1553&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Guatemala",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=14.6349&lon=-90.5069&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "South Africa",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-25.7479&lon=28.2293&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Thailand",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=13.7563&lon=100.5018&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Myanmar",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=16.8661&lon=96.1951&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Jordan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=31.9539&lon=35.9106&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Dominican Republic",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=18.4861&lon=-69.9312&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Cameroon",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=3.848&lon=11.5021&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Honduras",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=14.0723&lon=-87.1921&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Albania",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=41.3275&lon=19.8187&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Peru",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-12.0464&lon=-77.0428&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Bulgaria",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=42.6977&lon=23.3219&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Romania",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=44.4268&lon=26.1025&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Venezuela",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=10.4806&lon=-66.9036&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Sudan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=15.5007&lon=32.5599&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Ecuador",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-0.1807&lon=-78.4678&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Guinea-Bissau",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=11.8817&lon=-15.6178&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Burkina Faso",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=12.3714&lon=-1.5197&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Fiji",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-18.1248&lon=178.4501&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Cambodia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=11.5564&lon=104.9282&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Cape Verde",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=14.933&lon=-23.5133&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Ethiopia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=9.145&lon=40.4897&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Brazil",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-15.8267&lon=-47.9218&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Iraq",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=33.3152&lon=44.3661&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Togo",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=6.1725&lon=1.2314&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Benin",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=6.369&lon=2.4259&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Namibia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-22.5609&lon=17.0658&start=2015-01-01&end=2022-12-31"
+    }, 
+    {
+      "Country": "Sierra Leone",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=8.4657&lon=-13.2317&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Mauritania",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=18.0735&lon=-15.9582&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Mauritius",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-20.3484&lon=57.5522&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Nauru",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-0.5467&lon=166.9211&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Iran",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=35.6892&lon=51.389&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Mongolia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.8864&lon=106.9057&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Kazakhstan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=51.1694&lon=71.4491&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Somalia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=2.0469&lon=45.3182&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Tanzania",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-6.7924&lon=39.2083&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Rwanda",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-1.9579&lon=30.1127&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Bolivia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-16.4897&lon=-68.1193&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Republic of China", 
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=39.9042&lon=116.4074&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Bosnia and Herzegovina",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=43.8563&lon=18.4131&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Gabon",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=0.4162&lon=9.4673&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Colombia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=4.711&lon=-74.0721&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Nicaragua",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=12.114&lon=-86.2362&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Azerbaijan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=40.4093&lon=49.8671&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Moldova",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.0105&lon=28.8638&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Uganda",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=0.3476&lon=32.5825&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Republic of Macedonia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=41.9973&lon=21.428&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Vietnam",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=21.0285&lon=105.8542&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Morocco",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=33.5731&lon=-7.5898&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Philippines",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=14.5995&lon=120.9842&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Russia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=55.7558&lon=37.6173&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Belarus",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=53.9045&lon=27.5615&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "The Gambia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=13.4549&lon=-16.579&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Nigeria",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=9.082&lon=8.6753&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Argentina",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-34.6037&lon=-58.3816&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Uzbekistan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=41.2995&lon=69.2401&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Malaysia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=3.139&lon=101.6869&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Kenya",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-1.2921&lon=36.8219&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Botswana",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-24.6282&lon=25.9231&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Tajikistan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=38.5598&lon=68.787&start=2015-01-01&end=2022-12-31"
+    }, 
+    {
+      "Country": "Lesotho",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-29.3632&lon=27.5144&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Malawi",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-13.9626&lon=33.7741&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Indonesia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-6.2088&lon=106.8456&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Paraguay",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-25.2637&lon=-57.5759&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Tuvalu",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-7.4784&lon=178.6799&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Republic of the Congo",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-4.2634&lon=15.2429&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Kyrgyzstan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=42.8746&lon=74.5698&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Djibouti",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=11.8251&lon=42.5903&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Comoros",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-11.7172&lon=43.2473&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Ukraine",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=50.4501&lon=30.5234&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Eswatini",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-26.3054&lon=31.1367&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Ghana",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=5.6037&lon=-0.187&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Papua New Guinea",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-9.4438&lon=147.1803&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Madagascar",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-18.8792&lon=47.5079&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Mali",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=12.6392&lon=-8.0029&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Yemen",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=15.3694&lon=44.191&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Haiti",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=18.5944&lon=-72.3074&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Liberia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=6.3005&lon=-10.7972&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "East Timor",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-8.5569&lon=125.5603&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Chad",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=12.1348&lon=15.0557&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Eritrea",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=15.3229&lon=38.9251&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Turkey",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=39.9334&lon=32.8597&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Central African Republic",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=4.3947&lon=18.5582&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "South Sudan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=4.8594&lon=31.5713&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Kiribati",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=1.329&lon=172.9789&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Syria",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=33.5138&lon=36.2765&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Bangladesh",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=23.8103&lon=90.4125&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Sri Lanka",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=6.9271&lon=79.8612&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Afghanistan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=34.5553&lon=69.2075&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "India",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=28.6139&lon=77.209&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Algeria",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=36.7372&lon=3.0863&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Tunisia",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=36.8065&lon=10.1815&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Libya",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=32.8872&lon=13.1913&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Burundi",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=-3.3614&lon=29.3599&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Bhutan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=27.5142&lon=89.6339&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Nepal",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=27.7172&lon=85.324&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Egypt",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=30.0444&lon=31.2357&start=2015-01-01&end=2022-12-31"
+    },
+    {
+      "Country": "Pakistan",
+      "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=33.6844&lon=73.0479&start=2015-01-01&end=2022-12-31"
+    }
 ]
