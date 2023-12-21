@@ -1,0 +1,770 @@
+[
+  {
+    "Country": "Monaco",
+    "Price": 3955.0
+  },
+  {
+    "Country": "Singapore",
+    "Price": 3408.0
+  },
+  {
+    "Country": "Cayman Islands",
+    "Price": 3255.0
+  },
+  {
+    "Country": "Switzerland",
+    "Price": 2850.0
+  },
+  {
+    "Country": "Iceland",
+    "Price": 2457.0
+  },
+  {
+    "Country": "Ireland",
+    "Price": 2343.0
+  },
+  {
+    "Country": "Liechtenstein",
+    "Price": 2326.0
+  },
+  {
+    "Country": "United States of America",
+    "Price": 2317.0
+  },
+  {
+    "Country": "Luxembourg",
+    "Price": 2271.0
+  },
+  {
+    "Country": "Australia",
+    "Price": 2212.0
+  },
+  {
+    "Country": "United Kingdom",
+    "Price": 2017.0
+  },
+  {
+    "Country": "Vanuatu",
+    "Price": 2010.0
+  },
+  {
+    "Country": "Norway",
+    "Price": 1964.0
+  },
+  {
+    "Country": "Qatar",
+    "Price": 1939.0
+  },
+  {
+    "Country": "Denmark",
+    "Price": 1922.0
+  },
+  {
+    "Country": "Canada",
+    "Price": 1901.0
+  },
+  {
+    "Country": "New Zealand",
+    "Price": 1876.0
+  },
+  {
+    "Country": "Netherlands",
+    "Price": 1862.0
+  },
+  {
+    "Country": "Israel",
+    "Price": 1707.0
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Price": 1680.0
+  },
+  {
+    "Country": "Austria",
+    "Price": 1668.0
+  },
+  {
+    "Country": "North Korea",
+    "Price": 1595.0
+  },
+  {
+    "Country": "Seychelles",
+    "Price": 1585.0
+  },
+  {
+    "Country": "Finland",
+    "Price": 1580.0
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "Price": 1573.0
+  },
+  {
+    "Country": "Marshall Islands",
+    "Price": 1557.0
+  },
+  {
+    "Country": "France",
+    "Price": 1554.0
+  },
+  {
+    "Country": "Germany",
+    "Price": 1533.0
+  },
+  {
+    "Country": "Cyprus",
+    "Price": 1530.0
+  },
+  {
+    "Country": "Belgium",
+    "Price": 1520.0
+  },
+  {
+    "Country": "Solomon Islands",
+    "Price": 1483.0
+  },
+  {
+    "Country": "Sweden",
+    "Price": 1479.0
+  },
+  {
+    "Country": "Malta",
+    "Price": 1471.0
+  },
+  {
+    "Country": "Italy",
+    "Price": 1405.0
+  },
+  {
+    "Country": "Kuwait",
+    "Price": 1379.0
+  },
+  {
+    "Country": "Barbados",
+    "Price": 1343.0
+  },
+  {
+    "Country": "Andorra",
+    "Price": 1336.0
+  },
+  {
+    "Country": "Spain",
+    "Price": 1318.0
+  },
+  {
+    "Country": "Czech Republic",
+    "Price": 1284.0
+  },
+  {
+    "Country": "San Marino",
+    "Price": 1268.0
+  },
+  {
+    "Country": "Lebanon",
+    "Price": 1243.0
+  },
+  {
+    "Country": "Cuba",
+    "Price": 1234.0
+  },
+  {
+    "Country": "Turkmenistan",
+    "Price": 1234.0
+  },
+  {
+    "Country": "Slovenia",
+    "Price": 1230.0
+  },
+  {
+    "Country": "Panama",
+    "Price": 1229.0
+  },
+  {
+    "Country": "Estonia",
+    "Price": 1224.0
+  },
+  {
+    "Country": "Maldives",
+    "Price": 1215.0
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "Price": 1196.0
+  },
+  {
+    "Country": "Uruguay",
+    "Price": 1196.0
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Price": 1183.0
+  },
+  {
+    "Country": "Portugal",
+    "Price": 1180.0
+  },
+  {
+    "Country": "Palau",
+    "Price": 1161.0
+  },
+  {
+    "Country": "Japan",
+    "Price": 1155.0
+  },
+  {
+    "Country": "Senegal",
+    "Price": 1154.0
+  },
+  {
+    "Country": "Armenia",
+    "Price": 1145.0
+  },
+  {
+    "Country": "South Korea",
+    "Price": 1138.0
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Price": 1136.0
+  },
+  {
+    "Country": "Oman",
+    "Price": 1115.0
+  },
+  {
+    "Country": "Lithuania",
+    "Price": 1107.0
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "Price": 1103.0
+  },
+  {
+    "Country": "Saint Lucia",
+    "Price": 1101.0
+  },
+  {
+    "Country": "Brunei",
+    "Price": 1096.0
+  },
+  {
+    "Country": "Georgia",
+    "Price": 1093.0
+  },
+  {
+    "Country": "Slovakia",
+    "Price": 1091.0
+  },
+  {
+    "Country": "Poland",
+    "Price": 1089.0
+  },
+  {
+    "Country": "Greece",
+    "Price": 1087.0
+  },
+  {
+    "Country": "Bahrain",
+    "Price": 1077.0
+  },
+  {
+    "Country": "Croatia",
+    "Price": 1074.0
+  },
+  {
+    "Country": "Grenada",
+    "Price": 1074.0
+  },
+  {
+    "Country": "Costa Rica",
+    "Price": 1073.0
+  },
+  {
+    "Country": "Chile",
+    "Price": 1040.0
+  },
+  {
+    "Country": "Mozambique",
+    "Price": 1035.0
+  },
+  {
+    "Country": "Niger",
+    "Price": 1016.0
+  },
+  {
+    "Country": "Jamaica",
+    "Price": 1008.0
+  },
+  {
+    "Country": "Latvia",
+    "Price": 1002.0
+  },
+  {
+    "Country": "Samoa",
+    "Price": 971.0
+  },
+  {
+    "Country": "Hungary",
+    "Price": 969.0
+  },
+  {
+    "Country": "Taiwan",
+    "Price": 969.0
+  },
+  {
+    "Country": "Zambia",
+    "Price": 965.0
+  },
+  {
+    "Country": "Ivory Coast",
+    "Price": 958.0
+  },
+  {
+    "Country": "Guinea",
+    "Price": 944.0
+  },
+  {
+    "Country": "El Salvador",
+    "Price": 931.0
+  },
+  {
+    "Country": "Serbia",
+    "Price": 923.0
+  },
+  {
+    "Country": "Suriname",
+    "Price": 920.0
+  },
+  {
+    "Country": "Mexico",
+    "Price": 911.0
+  },
+  {
+    "Country": "Tonga",
+    "Price": 900.0
+  },
+  {
+    "Country": "São Tomé and Príncipe",
+    "Price": 878.0
+  },
+  {
+    "Country": "Palestine",
+    "Price": 877.0
+  },
+  {
+    "Country": "Dominica",
+    "Price": 876.0
+  },
+  {
+    "Country": "Zimbabwe",
+    "Price": 873.0
+  },
+  {
+    "Country": "Angola",
+    "Price": 872.0
+  },
+  {
+    "Country": "Belize",
+    "Price": 869.0
+  },
+  {
+    "Country": "Laos",
+    "Price": 865.0
+  },
+  {
+    "Country": "Montenegro",
+    "Price": 861.0
+  },
+  {
+    "Country": "Guyana",
+    "Price": 854.0
+  },
+  {
+    "Country": "Guatemala",
+    "Price": 852.0
+  },
+  {
+    "Country": "South Africa",
+    "Price": 843.0
+  },
+  {
+    "Country": "Thailand",
+    "Price": 835.0
+  },
+  {
+    "Country": "Myanmar",
+    "Price": 834.0
+  },
+  {
+    "Country": "Jordan",
+    "Price": 830.0
+  },
+  {
+    "Country": "Dominican Republic",
+    "Price": 828.0
+  },
+  {
+    "Country": "Cameroon",
+    "Price": 825.0
+  },
+  {
+    "Country": "Honduras",
+    "Price": 810.0
+  },
+  {
+    "Country": "Albania",
+    "Price": 792.0
+  },
+  {
+    "Country": "Peru",
+    "Price": 789.0
+  },
+  {
+    "Country": "Bulgaria",
+    "Price": 786.0
+  },
+  {
+    "Country": "Romania",
+    "Price": 784.0
+  },
+  {
+    "Country": "Venezuela",
+    "Price": 784.0
+  },
+  {
+    "Country": "Sudan",
+    "Price": 783.0
+  },
+  {
+    "Country": "Ecuador",
+    "Price": 779.0
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "Price": 778.0
+  },
+  {
+    "Country": "Burkina Faso",
+    "Price": 770.0
+  },
+  {
+    "Country": "Fiji",
+    "Price": 770.0
+  },
+  {
+    "Country": "Cambodia",
+    "Price": 764.0
+  },
+  {
+    "Country": "Cape Verde",
+    "Price": 760.0
+  },
+  {
+    "Country": "Ethiopia",
+    "Price": 759.0
+  },
+  {
+    "Country": "Brazil",
+    "Price": 736.0
+  },
+  {
+    "Country": "Iraq",
+    "Price": 732.0
+  },
+  {
+    "Country": "Togo",
+    "Price": 729.0
+  },
+  {
+    "Country": "Benin",
+    "Price": 728.0
+  },
+  {
+    "Country": "Namibia",
+    "Price": 720.0
+  },
+  {
+    "Country": "Sierra Leone",
+    "Price": 719.0
+  },
+  {
+    "Country": "Mauritania",
+    "Price": 717.0
+  },
+  {
+    "Country": "Mauritius",
+    "Price": 709.0
+  },
+  {
+    "Country": "Nauru",
+    "Price": 709.0
+  },
+  {
+    "Country": "Iran",
+    "Price": 704.0
+  },
+  {
+    "Country": "Mongolia",
+    "Price": 703.0
+  },
+  {
+    "Country": "Kazakhstan",
+    "Price": 702.0
+  },
+  {
+    "Country": "Somalia",
+    "Price": 701.0
+  },
+  {
+    "Country": "Tanzania",
+    "Price": 700.0
+  },
+  {
+    "Country": "Rwanda",
+    "Price": 698.0
+  },
+  {
+    "Country": "Bolivia",
+    "Price": 697.0
+  },
+  {
+    "Country": "People's Republic of China",
+    "Price": 692.0
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "Price": 655.0
+  },
+  {
+    "Country": "Gabon",
+    "Price": 648.0
+  },
+  {
+    "Country": "Colombia",
+    "Price": 646.0
+  },
+  {
+    "Country": "Nicaragua",
+    "Price": 642.0
+  },
+  {
+    "Country": "Azerbaijan",
+    "Price": 641.0
+  },
+  {
+    "Country": "Moldova",
+    "Price": 640.0
+  },
+  {
+    "Country": "Uganda",
+    "Price": 635.0
+  },
+  {
+    "Country": "Republic of Macedonia",
+    "Price": 629.0
+  },
+  {
+    "Country": "Vietnam",
+    "Price": 628.0
+  },
+  {
+    "Country": "Morocco",
+    "Price": 625.0
+  },
+  {
+    "Country": "Philippines",
+    "Price": 623.0
+  },
+  {
+    "Country": "Russia",
+    "Price": 615.0
+  },
+  {
+    "Country": "Belarus",
+    "Price": 614.0
+  },
+  {
+    "Country": "The Gambia",
+    "Price": 610.0
+  },
+  {
+    "Country": "Nigeria",
+    "Price": 609.0
+  },
+  {
+    "Country": "Argentina",
+    "Price": 603.0
+  },
+  {
+    "Country": "Uzbekistan",
+    "Price": 599.0
+  },
+  {
+    "Country": "Malaysia",
+    "Price": 598.0
+  },
+  {
+    "Country": "Kenya",
+    "Price": 595.0
+  },
+  {
+    "Country": "Botswana",
+    "Price": 592.0
+  },
+  {
+    "Country": "Tajikistan",
+    "Price": 591.0
+  },
+  {
+    "Country": "Lesotho",
+    "Price": 586.0
+  },
+  {
+    "Country": "Malawi",
+    "Price": 578.0
+  },
+  {
+    "Country": "Indonesia",
+    "Price": 573.0
+  },
+  {
+    "Country": "Paraguay",
+    "Price": 566.0
+  },
+  {
+    "Country": "Tuvalu",
+    "Price": 564.0
+  },
+  {
+    "Country": "Republic of the Congo",
+    "Price": 560.0
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Price": 556.0
+  },
+  {
+    "Country": "Djibouti",
+    "Price": 550.0
+  },
+  {
+    "Country": "Comoros",
+    "Price": 548.0
+  },
+  {
+    "Country": "Ukraine",
+    "Price": 548.0
+  },
+  {
+    "Country": "Eswatini",
+    "Price": 547.0
+  },
+  {
+    "Country": "Ghana",
+    "Price": 540.0
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Price": 538.0
+  },
+  {
+    "Country": "Madagascar",
+    "Price": 537.0
+  },
+  {
+    "Country": "Mali",
+    "Price": 532.0
+  },
+  {
+    "Country": "Yemen",
+    "Price": 529.0
+  },
+  {
+    "Country": "Haiti",
+    "Price": 527.0
+  },
+  {
+    "Country": "Liberia",
+    "Price": 524.0
+  },
+  {
+    "Country": "East Timor",
+    "Price": 523.0
+  },
+  {
+    "Country": "Chad",
+    "Price": 521.0
+  },
+  {
+    "Country": "Eritrea",
+    "Price": 518.0
+  },
+  {
+    "Country": "Turkey",
+    "Price": 515.0
+  },
+  {
+    "Country": "Central African Republic",
+    "Price": 514.0
+  },
+  {
+    "Country": "South Sudan",
+    "Price": 512.0
+  },
+  {
+    "Country": "Kiribati",
+    "Price": 507.0
+  },
+  {
+    "Country": "Syria",
+    "Price": 506.0
+  },
+  {
+    "Country": "Bangladesh",
+    "Price": 455.0
+  },
+  {
+    "Country": "Sri Lanka",
+    "Price": 443.0
+  },
+  {
+    "Country": "Afghanistan",
+    "Price": 441.0
+  },
+  {
+    "Country": "India",
+    "Price": 440.0
+  },
+  {
+    "Country": "Algeria",
+    "Price": 439.0
+  },
+  {
+    "Country": "Tunisia",
+    "Price": 431.0
+  },
+  {
+    "Country": "Libya",
+    "Price": 429.0
+  },
+  {
+    "Country": "Burundi",
+    "Price": 428.0
+  },
+  {
+    "Country": "Bhutan",
+    "Price": 409.0
+  },
+  {
+    "Country": "Nepal",
+    "Price": 374.0
+  },
+  {
+    "Country": "Egypt",
+    "Price": 350.0
+  },
+  {
+    "Country": "Pakistan",
+    "Price": 332.0
+  }
+]

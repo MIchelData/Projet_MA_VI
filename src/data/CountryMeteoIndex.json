@@ -1,0 +1,34 @@
+[
+  {
+    "Country": "Monaco",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=43.7333&lon=7.4&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Singapore",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=1.3666&lon=103.8&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Cayman Islands",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=19.5000&lon=-80.5000&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Switzerland",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.3714&lon=8.5117&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Iceland",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=64.1179&lon=-21.8836&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Ireland",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=53.3387&lon=-6.3035&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Liechtenstein",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=47.1430&lon=9.5171&start=2015-01-01&end=2022-12-31"
+  },
+  {
+    "Country": "Germany",
+    "URL": "https://meteostat.p.rapidapi.com/point/monthly?lat=52.5244&lon=13.4105&start=2015-01-01&end=2022-12-31"
+  }
+]
