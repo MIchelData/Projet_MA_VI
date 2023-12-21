@@ -14,22 +14,27 @@ async function displayMap(budget = 'all', tempMin = null, tempMax = null, select
       let isBudgetMatch = false;
       let isTempMatch = false;
       let isClimateMatch = false;
+      let hasNoWeatherData = true;  // Nouvelle variable pour vérifier l'existence des données météo
 
-      // Vérifier si le pays correspond au budget sélectionné
-      const matchingCountryPrice = priceIndex.find(priceid => priceid.country == d.properties.admin);
-      if (budget === 'all' || (matchingCountryPrice && matchingCountryPrice.indexPrice === budget)) {
-          isBudgetMatch = true;
-      }
-
-      // Vérifier si les températures correspondent à la sélection de l'utilisateur
       const countryWeatherData = allWeatherData.find(data => data.Country === d.properties.admin);
-      if (countryWeatherData && countryWeatherData.weatherData) {
-            const monthlyAverageTmax = countryWeatherData.weatherData.monthlyTmaxAverages[selectedMonth];
-            if (monthlyAverageTmax >= tempMin && monthlyAverageTmax <= tempMax) {
-                isTempMatch = true;
-            }
-      
 
+      // Vérifier si le pays a des données météo
+      if (countryWeatherData && countryWeatherData.weatherData && Object.keys(countryWeatherData.weatherData.monthlyTmaxAverages).length > 0) {
+          hasNoWeatherData = false; // Il y a des données météo
+
+            // Vérifier si le pays correspond au budget sélectionné
+             const matchingCountryPrice = priceIndex.find(priceid => priceid.country == d.properties.admin);
+            if (budget === 'all' || (matchingCountryPrice && matchingCountryPrice.indexPrice === budget)) {
+                isBudgetMatch = true;
+            }
+
+            // Vérifier si les températures correspondent à la sélection de l'utilisateur
+            if (countryWeatherData && countryWeatherData.weatherData) {
+                    const monthlyAverageTmax = countryWeatherData.weatherData.monthlyTmaxAverages[selectedMonth];
+                    if (monthlyAverageTmax >= tempMin && monthlyAverageTmax <= tempMax) {
+                        isTempMatch = true;
+                    }
+            }
             // Vérifier si les précipitations correspondent à la sélection de l'utilisateur
             const monthlyAveragePrcp = countryWeatherData.weatherData.monthlyPrcpAverages[selectedMonth];
             switch (climate) {
@@ -50,8 +55,10 @@ async function displayMap(budget = 'all', tempMin = null, tempMax = null, select
       }
 
 
-      // Appliquer la couleur en fonction des conditions de budget, de température et des précipitations
-      if (isBudgetMatch && isTempMatch && isClimateMatch) {
+      // Appliquer la couleur en fonction des conditions de budget, de température, des précipitations et de la disponibilité des données météo
+      if (hasNoWeatherData) {
+          d3.select(this).attr('fill', 'turquoise').attr('stroke', 'black').attr('opacity', '0.7'); // Couleur pour les pays sans données météo
+      } else if (isBudgetMatch && isTempMatch && isClimateMatch) {
           d3.select(this).attr('fill', 'rgba(81, 212, 55, 0.8)').attr('stroke', 'black').attr('opacity', '0.7');
       } else {
           d3.select(this).attr('fill', 'white').attr('opacity', '0.7');
