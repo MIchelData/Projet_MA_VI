@@ -7,7 +7,7 @@ import * as rangeInput from './objects/DataInputs/rangeInput';
 import * as d3 from 'd3';
 import { json } from 'd3-fetch';
 
-import { getWeatherData, getCountryURL, getAllWeatherData } from './utils/api_axios';
+import { getAllWeatherData } from './utils/api_axios';
 
 import 'babel-polyfill';
 
@@ -26,8 +26,9 @@ function updateMap() {
   selectedMonth = selectedMonth.padStart(2, '0');
   
   const budget = document.querySelector('input[name="budget"]:checked').value;
+  const climate = document.querySelector('input[name="climate"]:checked').value;
 
-  displayMap(budget, tempMin, tempMax, selectedMonth);
+  displayMap(budget, tempMin, tempMax, selectedMonth, climate);
 }
 
 // Ajout des écouteurs d'événements pour les curseurs de température et le sélecteur de mois
@@ -37,6 +38,10 @@ document.getElementById('select_month').addEventListener('change', updateMap);
 
 // Ajout des écouteurs d'événements pour les options de budget
 document.querySelectorAll('.budget_input input').forEach((button) => {
+  button.addEventListener('click', updateMap);
+});
+// Ajout des écouteurs d'événements pour les options de climat
+document.querySelectorAll('.climate_input input').forEach((button) => {
   button.addEventListener('click', updateMap);
 });
 

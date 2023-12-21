@@ -2,27 +2,51 @@ import CountryMeteoIndex from '../data/CountryMeteoIndex.json';
 
 // Fonction pour calculer la moyenne mensuelle de tmax qui exclut les valeurs "null" de tmax
 function calculateMonthlyTmaxAverage(weatherData) {
-  let monthlyAverages = {};
+  let monthlyTmaxAverages = {};
   weatherData.forEach(data => {
       let month = data.date.substring(5, 7);
       if (data.tmax !== null) {
-          monthlyAverages[month] = monthlyAverages[month] || [];
-          monthlyAverages[month].push(data.tmax);
+          monthlyTmaxAverages[month] = monthlyTmaxAverages[month] || [];
+          monthlyTmaxAverages[month].push(data.tmax);
       }
   });
 
-  for (let month in monthlyAverages) {
-    if (monthlyAverages[month].length > 0) {
-        let sum = monthlyAverages[month].reduce((a, b) => a + b, 0);
-        let average = sum / monthlyAverages[month].length;
-        monthlyAverages[month] = average;
+  for (let month in monthlyTmaxAverages) {
+    if (monthlyTmaxAverages[month].length > 0) {
+        let sum = monthlyTmaxAverages[month].reduce((a, b) => a + b, 0);
+        let average = sum / monthlyTmaxAverages[month].length;
+        monthlyTmaxAverages[month] = average;
     } else {
         // Attribuer -21 pour les mois sans données valides (uniquement des données "null")
-        monthlyAverages[month] = -21;
+        monthlyTmaxAverages[month] = -21;
     }
 }
 
-return monthlyAverages;
+return monthlyTmaxAverages;
+}
+
+// Fonction pour calculer la moyenne mensuelle de prcp (précipitations)
+function calculateMonthlyPrcpAverage(weatherData) {
+  let monthlyPrcpAverages = {};
+  weatherData.forEach(data => {
+    let month = data.date.substring(5, 7);
+    if (data.prcp !== null) {
+      monthlyPrcpAverages[month] = monthlyPrcpAverages[month] || [];
+      monthlyPrcpAverages[month].push(data.prcp);
+    }
+  });
+
+  for (let month in monthlyPrcpAverages) {
+    if (monthlyPrcpAverages[month].length > 0) {
+      let sum = monthlyPrcpAverages[month].reduce((a, b) => a + b, 0);
+      let average = sum / monthlyPrcpAverages[month].length;
+      monthlyPrcpAverages[month] = average;
+    } else {
+      monthlyPrcpAverages[month] = -1; // Indique l'absence de données
+    }
+  }
+
+  return monthlyPrcpAverages;
 }
 
 // Fonction pour obtenir les données météorologiques
@@ -55,14 +79,25 @@ async function getAllWeatherData() {
     const { Country, URL } = countryData;
     const weatherData = await getWeatherData(URL);
     if (weatherData && weatherData.data) {
-        // Calculer les moyennes mensuelles de tmax
-        const monthlyAvgTmax = calculateMonthlyTmaxAverage(weatherData.data);
-        results.push({ Country, weatherData: { monthlyAverages: monthlyAvgTmax } });
-    }
-}
+       // Calculer les moyennes mensuelles de tmax
+       const monthlyAvgTmax = calculateMonthlyTmaxAverage(weatherData.data);
 
-return results;
-}
+       // Calculer les moyennes mensuelles de précipitations (prcp)
+       const monthlyAvgPrcp = calculateMonthlyPrcpAverage(weatherData.data);
+ 
+       // Stocker les moyennes mensuelles de tmax et prcp dans l'objet résultat
+       results.push({
+         Country,
+         weatherData: {
+           monthlyTmaxAverages: monthlyAvgTmax,
+           monthlyPrcpAverages: monthlyAvgPrcp
+         }
+       });
+     }
+   }
+ 
+   return results;
+ }
 
 export { getAllWeatherData };
 
