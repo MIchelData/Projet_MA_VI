@@ -1,15 +1,46 @@
-# Projet_MA_VI
+# Projet_MA_VI: Voyage voyage
 
-install:
+Ce projet a été réalisé dans le cadre du cours de MA_Visualisation de l'Information.
 
+Les étudiants ayant réalisé ce projet sont: BESSON Raphaël, KEMM PEREIRA Tanya, UEBELHART Calvin
+
+### Fonctionnalités
+
+Cette application a pour but d'inviter l'utilisateur de sélectionner différents critères (mois, température, climat, budget) et de voir quels pays sont disponibles selon ses choix.
+
+![1703236277867](image/README/1703236277867.png)
+
+### Données
+
+Nos données viennent de Meteostat et Wisevoter.
+
+### Install
+
+```
 npm intall
+```
 
-créer un fichier .env et mettre la clé API
+Il faut créer un fichier `.env` dans la racine du projet et mettre la clé API donnée par Meteostat
 
-faire la commande: npm install dotenv-webpack --save-dev
+```
+API_KEY = "mettre-votre-clef-ici"
+BASE_URL = 'https://meteostat.p.rapidapi.com'
+```
 
-lancer npm run start
+Puis faire la commande:
 
-si ça fct pas essaye de:
+```
+npm install dotenv-webpack --save-dev
+```
 
+Pour lancer l'application:
+
+```
+npm run start
+```
+
+Si problème lors de l'installation:
+
+```
 npm install node-fetch
+```
