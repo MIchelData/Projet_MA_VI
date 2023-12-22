@@ -1,28 +1,30 @@
 @import "variables.css";
 @import "header.css";
 @import "responsive.css";
+@import "drop-down.css";
+
 
 body {
-    min-width: 100%;
+    /* min-width: 100%; */
     color: var(--white);
-    background: var(--white);
+    background: rgba(23, 106, 198, 0.3);
     display: flex;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 63px;
+    line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
 }
 
 p {
     font-family: Helvetica, serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
 
@@ -38,3 +40,7 @@ p {
     background-color: rgb(20, 19, 25);
     color: rgb(222, 222, 219);
   }
+
+svg {
+
+}

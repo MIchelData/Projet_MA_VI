@@ -18,7 +18,24 @@
     </div>
     <div id="criterias">
 
-      <div class="continent">Continent</div>
+      <div><p class="input_title">Mois</p></div>
+      <div class="month_input input select">
+        <select name="month" id="select_month" size="12">
+          <option value="00" class="input_instr"> Sélectionner un mois</option>
+          <option value="01"> Janvier </option>
+          <option value="02"> Février </option>
+          <option value="03"> Mars </option>
+          <option value="04"> Avril </option>
+          <option value="05"> Mai </option>
+          <option value="06"> Juin </option>
+          <option value="07"> Juillet </option>
+          <option value="08"> Août </option>
+          <option value="09"> Septembre </option>
+          <option value="10"> Octobre </option>
+          <option value="11"> Novembre </option>
+          <option value="12"> Décembre </option>
+        </select>
+      </div>
 
       <div name="temperature_input" class="temperature_input range_container input">
         <p class="temperature input_title">Temperature [°C]</p>
@@ -38,26 +55,15 @@
         </div>
       </div>
       
-      <div class="month_input input">
-        <p class="month input_title">Mois</p>
-        <select name="month" id="select_month" size="12">
-          <option value="01"> Janvier </option>
-          <option value="02"> Février </option>
-          <option value="03"> Mars </option>
-          <option value="04"> Avril </option>
-          <option value="05"> Mai </option>
-          <option value="06"> Juin </option>
-          <option value="07"> Juillet </option>
-          <option value="08"> Août </option>
-          <option value="09"> Septembre </option>
-          <option value="10"> Octobre </option>
-          <option value="11"> Novembre </option>
-          <option value="12"> Décembre </option>
-        </select>
-      </div>
 
       <div class="climate_input input">
-        <p>Climat</p>
+        <p class="input_title">Climat</p>
+
+        <div>
+          <input type="radio" id="all" name="climate" value="all" checked/>
+          <label for="all">Tous les climats</label>
+        </div>
+
         <div>
           <input type="radio" id="pluvieux" name="climate" value="pluvieux" />
           <label for="pluvieux">Pluvieux (plus de 150 mm/mois)</label>
@@ -73,14 +79,16 @@
           <label for="ideal">Ideal (moins de 50 mm/mois)</label>
         </div>
 
-        <div>
-          <input type="radio" id="all" name="climate" value="all" checked/>
-          <label for="all">Tous les climats</label>
-        </div>
       </div>
 
       <div class="budget_input input">
-        <p>Budget sur place</p>
+        <p class="input_title">Budget sur place</p>
+
+        <div>
+          <input type="radio" id="all" name="budget" value="all" checked/>
+          <label for="all">tous les budgets</label>
+        </div>
+
         <div>
           <input type="radio" id="petit" name="budget" value="petit"/>
           <label for="petit">$ - petit budget</label>
@@ -95,10 +103,7 @@
           <input type="radio" id="large" name="budget" value="large" />
           <label for="large">$$$ - gros budget</label>
         </div>
-        <div>
-          <input type="radio" id="all" name="budget" value="all" checked/>
-          <label for="all">tous les budgets</label>
-        </div>
+        
       </div>
 
     </div>

@@ -1,0 +1,24 @@
+.mainselection {
+    overflow:hidden;
+    width:350px;
+    margin-left:35px;
+    /* background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px; */
+    /* dropdown_arrow.png is a 31x28 image */
+}
+select {
+    border:0;
+    background:white;
+    height:30px;
+    font-size: 15px;
+    border:1px solid #d8d8d8;
+    width:100%;
+    /* -webkit-appearance: none; */
+}
+
+.input_instr {
+    color: #b4b4b4;
+}
+
+option{
+    margin: 5px;
+}
