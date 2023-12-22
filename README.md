@@ -8,7 +8,7 @@ Les étudiants ayant réalisé ce projet sont: BESSON Raphaël, KEMM PEREIRA Tan
 
 Cette application a pour but d'inviter l'utilisateur de sélectionner différents critères (mois, température, climat, budget) et de voir quels pays sont disponibles selon ses choix.
 
-![1703236277867](image/README/1703236277867.png)
+![1703236277867](image/README/screenshot.png)
 
 ### Données
 
